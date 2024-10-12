@@ -7,8 +7,10 @@ import os
 # DATE MANIPULATION MODULES TO USE FOR API REQUEST PARAMS
 from datetime import date
 from dateutil.relativedelta import relativedelta
+# pip install python-dateutil
 
 app = Flask(__name__)
+
 
 app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get(
     'DATABASE_URL', "postgresql:///video_games_DB")
@@ -16,6 +18,9 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["SQLALCHEMY_ECHO"] = True
 app.config["SECRET_KEY"] = os.environ.get('SECRET_KEY', 'hellosecret1')
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
+
+
+connect_db(app)
 
 
 @app.route('/')

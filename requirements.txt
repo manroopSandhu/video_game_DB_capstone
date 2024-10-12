@@ -14,7 +14,7 @@ Flask-Bcrypt==1.0.1
 Flask-DebugToolbar==0.13.1
 Flask-SQLAlchemy==3.0.3
 Flask-WTF==1.1.1
-greenlet==2.0.2
+greenlet
 gunicorn==20.1.0
 idna==3.4
 ipython==7.0.1
@@ -38,7 +38,7 @@ six==1.11.0
 SQLAlchemy==2.0.2
 text-unidecode==1.2
 traitlets==4.3.2
-typing_extensions==4.5.0
+typing_extensions==4.6.0
 urllib3==1.26.14
 wcwidth==0.1.7
 Werkzeug==2.2.2
