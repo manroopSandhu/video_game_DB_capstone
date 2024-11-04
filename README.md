@@ -21,7 +21,7 @@ Clone the repository: https://github.com/manroopSandhu/video_game_DB_capstone
 
 Navigate to the project directory: cd video_game_DB_capstone
 
-Set up a Virtual Enviornment: python3 -m venv venv 
+Set up a Virtual Enviornment: python3 -m venv venv ||
                               source venv/bin/activate
                               
 Install the dependencies: pip install -r requirements.txt
