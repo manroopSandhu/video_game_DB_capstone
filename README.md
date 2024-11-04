@@ -7,11 +7,14 @@ Search by Console: Filter games based on the platforms they can be played on, in
 Game Ratings: See the rating of each game to help decide whether it’s worth playing.
 Platform & Genre Filtering: Combine platform and genre filters to find the exact kind of game you’re in the mood for.
 
+
 Technologies Used
 Backend: Flask (Python)
 Database: SQLAchemy, PostgeSQL
 Frontend: HTML, CSS
 Additional Libraries: https://rawg.io/ (API)
+
+
 
 
 Installation
@@ -21,8 +24,9 @@ Clone the repository: https://github.com/manroopSandhu/video_game_DB_capstone
 
 Navigate to the project directory: cd video_game_DB_capstone
 
-Set up a Virtual Enviornment: python3 -m venv venv ||
-                              source venv/bin/activate
+Set up a Virtual Enviornment: python3 -m venv venv 
+
+Open Virtual Envoirment: source venv/bin/activate
                               
 Install the dependencies: pip install -r requirements.txt
 
