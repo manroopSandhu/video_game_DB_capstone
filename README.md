@@ -1,3 +1,4 @@
+About
 - Video Game Database (VGDB) is a comprehensive video game database application where users can search for video games by title, genre, or console. It provides detailed information on each game, including ratings, descriptions, release dates, and the platforms it is available on (Xbox, PlayStation, Switch, Steam, or mobile). Whether you're looking for the best game in your favorite genre or a game that works on your specific console, Video Game DB has you covered.
 
 Features
